@@ -8,9 +8,18 @@ const playerId = "oskardb@uia.no";
     const startResponse = await fetch(startUrl);
     const startData = await startResponse.json();
     console.log("Challenge started:", startData);
-})();
 
 const solutionOne = "Gold, Quicksilver, Silver, Iron, Gold";
-const solutionUrl = `${ALCHEMY_API}solution?player=${encodeURIComponent(playerId)}&solution=${encodeURIComponent(solutionOne)}`;
 
+const answerResponse = await fetch(`${ALCHEMY_API}answer`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+        player: playerId,
+        answer: solutionOne
+    })
+});
 
+const answerData = await answerResponse.json();
+console.log("Answer submitted:", answerData);
+})();
