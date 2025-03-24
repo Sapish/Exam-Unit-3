@@ -9,7 +9,7 @@ const playerId = "oskardb@uia.no";
     const startData = await startResponse.json();
     console.log("Challenge started:", startData);
 
-const solutionOne = "Gold, Quicksilver, Silver, Iron, Gold";
+const solutionOne = ["Gold", "Quicksilver", "Silver", "Iron", "Gold"];
 
 const answerResponse = await fetch(`${ALCHEMY_API}answer`, {
     method: "POST",
