@@ -3,6 +3,16 @@ import fetch from 'node-fetch';
 const ALCHEMY_API = "https://alchemy-kd0l.onrender.com/";
 const playerId = "oskardb@uia.no";
 
+const PlanetarySymbolsConverter = code => {
+    const ConvertSymbolsToMetal = {
+      "☉": "Gold",
+      "☿": "Quicksilver",
+      "☽": "Silver",
+      "♂": "Iron"
+    };
+    return [...code].map(symbol => mapping[symbol]);
+  };
+
 (async function() {
     const startUrl = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
     const startResponse = await fetch(startUrl);

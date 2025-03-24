@@ -6,3 +6,6 @@ Since the task is about alchemy, that probably is an indication that i will need
 Running into the problem that was shown in class where im getting the HTML bug. (fixed by reading the task again, seeing that i need to submit answer using a POST request, rewrote my code to fit this need.)
 I believe im writing the answer correct, but im still getting wrong answer? "Gold, Quicksilver, Silver, Iron, Gold".
 Fixed the answer, i was not returning an array.
+I have now solved the task manually and got the correct answer, i will now try implementing code to solve the challenge.
+  1. Added code to decode the symbols over to metals.
+  2. 
