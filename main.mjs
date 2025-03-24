@@ -38,13 +38,14 @@ const startUrl2 = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
     const startData2 = await startResponse2.json();
     console.log("Challenge two started:", startData2);
 
-    const answer2 = "SILVER";
+    
+    const answer2 = ["SILVER"];
     console.log("Answer for challenge two: ", answer2);
 
     const answerResponse2 = await fetch(`${ALCHEMY_API}answer`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ player: playerId, answer: answer1 })
+        body: JSON.stringify({ player: playerId, answer: answer2 })
     });
     const answerData2 = await answerResponse2.json();
     console.log("Answer submitted for challenge two: ", answerData2);

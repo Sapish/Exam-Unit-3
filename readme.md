@@ -17,4 +17,5 @@ Task 2 -------------------
 Im guessing there is some sort of secret message within the poem “Still flows the Icy Lethe, Veiling all ’neath Eldritch Rime.”
 1. First thing i thought of was that it could be the numbers of letters in the poem, but that wouldn't really be a secret message but a number.
 2. Second thought if it had to be a secret message is trying the capital letters, so ill make a test for that.
+3. Doesn't seem like SILVER is the correct answer either.
 
