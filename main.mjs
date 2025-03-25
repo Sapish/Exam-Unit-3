@@ -1,3 +1,4 @@
+import { match } from 'assert';
 import fetch from 'node-fetch';
 
 const ALCHEMY_API = "https://alchemy-kd0l.onrender.com/";
@@ -77,6 +78,12 @@ const convertNumbersIntoLetters = {
     "270": "W"
 
 };
+
+const oldTranscript = "17 20   20 29 17 24 4 34   24 127 127 1 8 8   17 20   17 10 1   34 1 46 17   48 24 45 12 17 ,   4 34 9 45 17   17 10 1   2 20 23 38 45 12 24   2 20 23   17 10 1   17 10 1   2 20 45 23 17 10   1 12 1 38 1 34 17 ;   127 20 38 29 4 34 1   38 1 23 127 45 23 108 ,   127 20 9 9 1 23   24 34 131   8 45 12 2 45 23   20 48 1 23   10 1 24 17 ,   24 131 131   8 24 12 17   24 34 131   270 24 17 1 23 ,   4 34 2 45 8 1   5 20 12 131   17 10 23 20 45 5 10   24 4 23 ";
+
+const convertedText = oldTranscript.replace(/\b(\d+)\b/g, (match) => {
+    return convertNumbersIntoLetters[match] || match;
+});
 
 
 })();
