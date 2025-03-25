@@ -86,5 +86,13 @@ const convertedText = oldTranscript.replace(/\b(\d+)\b/g, (match) => {
 });
 console.log("Converted text: ", convertedText);
 
+const parts = convertedText.split(";");
+if(parts.length < 2) {
+    console.error("Couldn't find the formula in converted text.");
+    return;
+}
+const formulaText = parts[1].trim();
+console.log("Formula text: ", formulaText);
+
 
 })();
