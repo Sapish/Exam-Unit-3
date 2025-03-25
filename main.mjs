@@ -174,3 +174,11 @@ const grid = gridLines.map(line => line.split(/\s+/));
 
 console.log("Grid: ");
 console.log(grid);
+
+const smallestDimension = Math.min(grid.length, ...grid.map(row => row.length));
+const diagonalSymbols = [];
+for (let i = 0; i < smallestDimension; i++) {
+    diagonalSymbols.push(grid[i][i]);
+}
+console.log("Diagonal symbols: ");
+console.log(diagonalSymbols.join(" "));
