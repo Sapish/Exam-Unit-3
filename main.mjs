@@ -94,6 +94,12 @@ if(parts.length < 2) {
 const formulaText = parts[1].trim();
 console.log("Formula text: ", formulaText);
 
+const reBuildWords = formulaText
+    .split(/\s{2,}/)
+    .map(chunk => chunk.replace(/\s+/g, ""))
+    .join(" ");
+console.log("Rebuilt formula text: ", reBuildWords);
+
 const convertElementToSymbol = {
     "mercury": "☿",
     "copper": "♀",
@@ -106,8 +112,12 @@ const convertElementToSymbol = {
 
 };
 
+const formulaWords = reBuildWords
+    .toLowerCase()
+    .replace(/[.,!?]/g, "")
+    .split(/\s+/);
+console.log("Formula words: ", formulaWords);
 
-const formulaWords = formulaText.toLowerCase().split(/[\s,;]+/);
 const extractedElements = formulaWords.filter(word => convertElementToSymbol.hasOwnProperty(word));
 console.log("Extracted elements: ", extractedElements);
 
