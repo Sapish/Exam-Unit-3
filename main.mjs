@@ -121,4 +121,7 @@ console.log("Formula words: ", formulaWords);
 const extractedElements = formulaWords.filter(word => convertElementToSymbol.hasOwnProperty(word));
 console.log("Extracted elements: ", extractedElements);
 
+const elementToSymbol = extractedElements.map(word => convertElementToSymbol[word]).join("");
+console.log("Alchemical symbols: ", elementToSymbol);
+
 })();
