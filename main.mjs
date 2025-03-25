@@ -49,4 +49,9 @@ const startUrl2 = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
     });
     const answerData2 = await answerResponse2.json();
     console.log("Answer submitted for challenge two: ", answerData2);
+
+//-------------------------------------Task 3
+
+
+
 })();

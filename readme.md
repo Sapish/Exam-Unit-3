@@ -18,4 +18,22 @@ Im guessing there is some sort of secret message within the poem “Still flows 
 1. First thing i thought of was that it could be the numbers of letters in the poem, but that wouldn't really be a secret message but a number.
 2. Second thought if it had to be a secret message is trying the capital letters, so ill make a test for that.
 3. Doesn't seem like SILVER is the correct answer either.
+4. Realised after a while that i had just been using a variable from task one in task 2, copy pasted some stuff from task one to task 2 to save time.. clearly didn't save me much time.
+5. Now i got the correct answer which was SILVER after all.
+6. Moving on to task 3!
+
+Task 3 -------------------
+So, we are most likely dealing with a book cypher in this task. https://en.wikipedia.org/wiki/Book_cipher
+Thought process:
+1. Added the numbers to a word document to see it more clearly and make it easier to look for patterns.
+2. The numbers are clearly separated using either spaces, commas or semicolon... i would assume that this means that each number could be a letter, and that the spaces separate words?
+3. I was thinking the numbers could their position in the alphabet, which would make the first word QT. This cant be the case though as there are some numbers that are way higher than the length of the alphabet.
+4. Numbers are also being repeated so either repeated words or letters?
+5. Found the book in question, but don't really know what to do with it yet.
+6. Been trying for a while to just make sentences out of the numbers, not gotten any big words yet, but im guessing the two letter combinations might be words like "or, to, if, by, do" etc... Think they will start making more sense once i look into the book potentially.
+7. Next step is looking at the first page of the book to see if i can make sense of things.
+8. Went to this specific page and counted the letters, so lets take 17 for example, if i count 17 letters it will be 17=T next, 20=o. So first word could be "To".
+   - https://archive.org/details/chirurgischebuch00para/page/n5/mode/2up
+9. Next i will try swapping out all the numbers with letters from the page. Will just do the smaller numbers, so not numbers over 100, as i hope i can see what those are and just fill them inn, that way i don't have to count the rest of my life. (testing it in word).
+10. After switching out all numbers with letters it gave me 'to obtain access to the next vault, input the formula for the the fourth element; combine mercury, copper and sulfur over heat, add salt and water, infuse gold through air'
 
