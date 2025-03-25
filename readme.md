@@ -40,4 +40,5 @@ Thought process:
 12. Did not seem to be the correct answer, tried both lower case and capital letters.
 13. Could try swapping out the text with symbols, so following these: https://en.wikipedia.org/wiki/Alchemical_symbol
 14. Im expecting this to be the answer, if taking the alchemical symbols is correct: "☿♀🜍🜂🜔🜄☉🜁"
+15. Answer was correct! Now i just need to code it.
 

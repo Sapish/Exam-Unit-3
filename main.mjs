@@ -52,17 +52,31 @@ const startUrl2 = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
 
 //-------------------------------------Task 3
 
-const answer3 = "☿♀🜍🜂🜔🜄☉🜁";
+const convertNumbersIntoLetters = {
+    "1": "E",
+    "2": "F",
+    "4": "I",
+    "5": "G",
+    "8": "S",
+    "9": "P",
+    "10": "H",
+    "12": "L",
+    "17": "T",
+    "20": "O",
+    "23": "R",
+    "24": "A",
+    "29": "B",
+    "34": "N",
+    "38": "M",
+    "45": "U",
+    "46": "X",
+    "48": "V",
+    "127": "C",
+    "108": "Y",
+    "131": "D",
+    "270": "W"
 
-console.log("Answer for challenge three: ", answer3);
-
-const answerResponse3 = await fetch(`${ALCHEMY_API}answer`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ player: playerId, answer: answer3 })
-});
-const answerData3 = await answerResponse3.json();
-console.log("Answer submitted for challenge three: ", answerData3);
+};
 
 
 })();
