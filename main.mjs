@@ -103,8 +103,11 @@ const convertElementToSymbol = {
     "water": "🜄",
     "gold": "☉",
     "air": "🜁"
-    
+
 };
 
+const formulaWords = formulaText.toLowerCase().split(/[\s,;]+/);
+const extractedElements = formulaWords.filter(word => convertElementToSymbol.hasOwnProperty(word));
+console.log("Extraced elements: ", extractedElements);
 
 })();
