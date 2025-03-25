@@ -84,6 +84,7 @@ const oldTranscript = "17 20   20 29 17 24 4 34   24 127 127 1 8 8   17 20   17 
 const convertedText = oldTranscript.replace(/\b(\d+)\b/g, (match) => {
     return convertNumbersIntoLetters[match] || match;
 });
+console.log("Converted text: ", convertedText);
 
 
 })();
