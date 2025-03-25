@@ -182,3 +182,21 @@ for (let i = 0; i < smallestDimension; i++) {
 }
 console.log("Diagonal symbols: ");
 console.log(diagonalSymbols.join(" "));
+
+const convertSymbolsToElement = {
+    "☉": "GOLD",
+    "♀": "COPPER",
+    "☽": "SILVER",
+    "🜃": "EARTH",
+    "☿": "MERCURY",
+    "🜂": "FIRE",
+    "🜁": "AIR",
+    "♄": "LEAD",
+    "♂": "IRON",
+    "🜄": "WATER",
+    "♃": "TIN"
+};
+
+const diagonalElements = diagonalSymbols.map(sym => convertSymbolsToElement[sym] || sym);
+console.log("Diagonal elements: ");
+console.log(diagonalElements.join(" "));
