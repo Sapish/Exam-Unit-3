@@ -52,6 +52,17 @@ const startUrl2 = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
 
 //-------------------------------------Task 3
 
+const answer3 = "COMBINE MERCURY, COPPER AND SULFUR OVER HEAT, ADD SALT AND WATER, INFUSE GOLD THROUGH AIR";
+
+console.log("Answer for challenge three: ", answer3);
+
+const answerResponse3 = await fetch(`${ALCHEMY_API}answer`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ player: playerId, answer: answer3 })
+});
+const answerData3 = await answerResponse3.json();
+console.log("Answer submitted for challenge three: ", answerData3);
 
 
 })();

@@ -36,4 +36,6 @@ Thought process:
    - https://archive.org/details/chirurgischebuch00para/page/n5/mode/2up
 9. Next i will try swapping out all the numbers with letters from the page. Will just do the smaller numbers, so not numbers over 100, as i hope i can see what those are and just fill them inn, that way i don't have to count the rest of my life. (testing it in word).
 10. After switching out all numbers with letters it gave me 'to obtain access to the next vault, input the formula for the the fourth element; combine mercury, copper and sulfur over heat, add salt and water, infuse gold through air'
+11. Will be trying to answer with "combine mercury, copper and sulfur over heat, add salt and water, infuse gold through air".
+12. Did not seem to be the correct answer, tried both lower case and capital letters.
 
