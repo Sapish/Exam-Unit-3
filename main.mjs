@@ -106,8 +106,9 @@ const convertElementToSymbol = {
 
 };
 
+
 const formulaWords = formulaText.toLowerCase().split(/[\s,;]+/);
 const extractedElements = formulaWords.filter(word => convertElementToSymbol.hasOwnProperty(word));
-console.log("Extraced elements: ", extractedElements);
+console.log("Extracted elements: ", extractedElements);
 
 })();
