@@ -38,4 +38,6 @@ Thought process:
 10. After switching out all numbers with letters it gave me 'to obtain access to the next vault, input the formula for the the fourth element; combine mercury, copper and sulfur over heat, add salt and water, infuse gold through air'
 11. Will be trying to answer with "combine mercury, copper and sulfur over heat, add salt and water, infuse gold through air".
 12. Did not seem to be the correct answer, tried both lower case and capital letters.
+13. Could try swapping out the text with symbols, so following these: https://en.wikipedia.org/wiki/Alchemical_symbol
+14. Im expecting this to be the answer, if taking the alchemical symbols is correct: "☿♀🜍🜂🜔🜄☉🜁"
 

@@ -52,7 +52,7 @@ const startUrl2 = `${ALCHEMY_API}start?player=${encodeURIComponent(playerId)}`;
 
 //-------------------------------------Task 3
 
-const answer3 = "COMBINE MERCURY, COPPER AND SULFUR OVER HEAT, ADD SALT AND WATER, INFUSE GOLD THROUGH AIR";
+const answer3 = "☿♀🜍🜂🜔🜄☉🜁";
 
 console.log("Answer for challenge three: ", answer3);
 
