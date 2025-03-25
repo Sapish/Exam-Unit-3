@@ -123,3 +123,11 @@ The next part is some sort of a table or a grid system. And with a hidden messag
     ☿ 🜄 ♄ ♃ ♄ ☽ ♃ ♀ ♃ 🜃 🜂 🜄 🜂 ☽ ☿ ☉ ☿ 🜂 ☽ 🜂 ♃ ♂ 🜄 🜃 ☿ ♄ ♄ ☽ 🜂
     ☿ 🜄 ♄ ♃ ♄ ☽ ♃ ♀ ♃ 🜃 🜂 🜄 🜂 ☽ ☿ ☉ ☿ 🜂 ☽ 🜂 ♃ ♂ 🜄 🜃 ☿ ♄ ♄ ☽ 🜂
 
+Struggling to figure out exactly what row/column i will need to find the solution to the challenge.
+At this point ive hit a wall and i fell a bit defeated not gonna lie.
+
+We are supposed to "combine horizontal and vertical indices".
+Which means the answer is somewhere in the diagonal line.
+Then convert each symbol over to its correct element, and take the first letter from each element.
+This should give the answer ARGON, but for some reason i am getting: GFWGFTGFWCCMLCLIGGGLTEIWEIFGC
+Ive spent too much time at this point, and im not able to think anymore, just going to do a manual submit and get the key (if ARGON is correct).

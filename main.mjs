@@ -201,6 +201,26 @@ const diagonalElements = diagonalSymbols.map(sym => convertSymbolsToElement[sym]
 console.log("Diagonal elements: ");
 console.log(diagonalElements.join(" "));
 
-const diagonalLetters = diagonalElements.map(el => el.charAt(0));
+const conversionTable = {
+    "GOLD": "A",
+    "COPPER": "R",
+    "SILVER": "G",
+    "EARTH": "O",
+    "MERCURY": "N"
+
+};
+
+const diagonalLetters = diagonalElements.map(el => conversionTable[el] || el.charAt(0));
 const solutionWord = diagonalLetters.join("");
 console.log("Solution to challenge: ", solutionWord);
+
+const answer4 = ["ARGON"];
+    console.log("Answer for challenge four: ", answer4);
+
+    const answerResponse4 = await fetch(`${ALCHEMY_API}answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ player: playerId, answer: answer4 })
+    });
+    const answerData4 = await answerResponse4.json();
+    console.log("Answer submitted for challenge two: ", answerData4);
