@@ -94,5 +94,17 @@ if(parts.length < 2) {
 const formulaText = parts[1].trim();
 console.log("Formula text: ", formulaText);
 
+const convertElementToSymbol = {
+    "mercury": "☿",
+    "copper": "♀",
+    "sulfur": "🜍",
+    "heat": "🜂",
+    "salt": "🜔",
+    "water": "🜄",
+    "gold": "☉",
+    "air": "🜁"
+    
+};
+
 
 })();
