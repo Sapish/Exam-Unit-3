@@ -169,3 +169,8 @@ const gridLines = challengeText.split("\n")
 
 console.log("Grid lines extracted: ");
 console.log(gridLines.join("\n"));
+
+const grid = gridLines.map(line => line.split(/\s+/));
+
+console.log("Grid: ");
+console.log(grid);
