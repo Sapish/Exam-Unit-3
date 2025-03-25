@@ -200,3 +200,7 @@ const convertSymbolsToElement = {
 const diagonalElements = diagonalSymbols.map(sym => convertSymbolsToElement[sym] || sym);
 console.log("Diagonal elements: ");
 console.log(diagonalElements.join(" "));
+
+const diagonalLetters = diagonalElements.map(el => el.charAt(0));
+const solutionWord = diagonalLetters.join("");
+console.log("Solution to challenge: ", solutionWord);
